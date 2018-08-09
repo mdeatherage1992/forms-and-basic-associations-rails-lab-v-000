@@ -52,7 +52,6 @@ end
 
 def note_contents
  self.note ? self.note.content : nil
->>>>>>> 3ca645d4124ebaeb60bfa44f63afaeafdedb5f9c
 end
 
 
