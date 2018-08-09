@@ -31,7 +31,6 @@ end
 
 def note_contents
  self.notes.map(&:content)
-=======
   self.artist_name = Artist.find_or_create_by(name: name)
 end
 
