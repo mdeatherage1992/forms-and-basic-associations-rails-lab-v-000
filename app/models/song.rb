@@ -4,7 +4,6 @@ class Song < ActiveRecord::Base
   has_many :notes
 
   def artist_name=(name)
-<<<<<<< HEAD
   artist = Artist.find_or_create_by(name: name)
   self.artist = artist
 end
